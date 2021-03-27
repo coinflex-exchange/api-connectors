@@ -13,6 +13,7 @@ import coinflex_ws
 
 ws = coinflex_ws.CoinFLEXWebSocket(
     url="wss://v2stgapi.coinflex.com/v2/websocket",	# Testnet endpoint; live endpoint is "wss://v2api.coinflex.com/v2/websocket"
+    market='BTC-USD-SWAP-LIN'
     api_key='',
     api_secret=''
 )
